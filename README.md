@@ -16,8 +16,8 @@
 - Windows: `set FLASK_APP=server.py`
 
 ### Turn on Flask Debugger
-- Linux: `export FLASK_APP=server.py`
-- Windows: `set FLASK_APP=server.py`
+- Linux: `export FLASK_DEBUG=1`
+- Windows: `set FLASK_DEBUG=1`
 
 ### Start Flask server
 - Any OS: `flask run`
