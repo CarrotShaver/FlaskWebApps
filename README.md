@@ -5,7 +5,7 @@
 
 ### Start virtual environment
 - Linux: `source env/bin/activate`
-- Windows: Good luck dude
+- Windows: `path\to\env\Scripts\activate`
 
 ### Create requirements.txt
 - Note: Run everytime a new module is installed
@@ -20,4 +20,13 @@
 - Windows: `set FLASK_DEBUG=1`
 
 ### Start Flask server
-- Any OS: `flask run`
+1. Bash: `source .env`
+2. Any OS: `flask run`
+
+### Initialize the manage.py
+- Bash terminal: `python manage.py db init`
+
+### Manage db, create new snapshot
+- Bash terminal: 
+    - `python manage.py db upgrade`
+    - `python manage.py db migrate`
